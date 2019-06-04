@@ -20,7 +20,7 @@ class FirstFragment : Fragment() {
 
     private fun onButtonPress() {
         view?.let {
-            findNavController(view!!).navigate(R.id.action_firstFragment_to_secondFragment)
+            findNavController(it).navigate(R.id.action_firstFragment_to_secondFragment)
         }
     }
 }
